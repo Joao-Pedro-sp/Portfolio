@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  height: 100vh;
+  color: black;
+}
+
+/*header*/
+header {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+
+header img {
+  height: 100px;
+  width: 100px;
+
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+header ul li {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+header ul li:hover {
+  transform: scale(1.2);
+}
+
+
+header ul li a ion-icon {
+  width: 30px;
+  height: 30px;
+  color: black;
+}
